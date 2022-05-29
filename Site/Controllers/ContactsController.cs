@@ -1,11 +1,9 @@
-﻿namespace Site.Controllers;
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Site.Controllers;
 
 public class ContactsController : Controller
 {
-    public ContactsController()
-    {
-    }
-
     public IActionResult Index()
     {
         return View();
